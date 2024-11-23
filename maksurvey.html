@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">MAKexpress Survey Form</h1>
+    <p id="description">Your data is going to make a whole lot difference</p>
+    <form id="survey-form" >
+      <label id="name-label" class="flex">Name: <input id="name" type="text" placeholder="Enter your name" required /><label>
+        <label  id="email-label"class="flex">Email: <input id="email" type="email"placeholder="Enter your email" required/></label>
+        <label id="number-label"class="flex">Number: <input id="number" type="number" placeholder="Enter your number" min="2" max="20" /></label>
+<select id="dropdown"class="flex">
+   <option>select</option>
+   <option></option>
+   <option></option>
+</select>
+<label>Gender:<input type="radio" name="radio-type" checked value="1" />M</label>
+<label><input type="radio" name="radio-type"  value="2"/>F</label>
+<div class="flex">
+<label>Voter?</label>
+<label><input type="checkbox" name="checkbox-type" value="2"/>YES</label>
+<label><input type="checkbox" name="checkbox-type" value="3" />NO</label></div>
+<label class="flex"><textarea></textarea></label>
+<input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+  </html>
