@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+  flex-direction: column;
+  padding:9px;
+}
+
+body{
+  background-color:yellow;
+}
+
+#submit{
+   background-color:green;
+}
